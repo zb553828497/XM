@@ -13,6 +13,7 @@
 		77EE5CB41CD68A39004F068C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EE5CB21CD68A39004F068C /* Main.storyboard */; };
 		77EE5CB61CD68A39004F068C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EE5CB51CD68A39004F068C /* Assets.xcassets */; };
 		77EE5CB91CD68A39004F068C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EE5CB71CD68A39004F068C /* LaunchScreen.storyboard */; };
+		77EE5CC21CD68A90004F068C /* PERSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EE5CC11CD68A90004F068C /* PERSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		77EE5CB51CD68A39004F068C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77EE5CB81CD68A39004F068C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77EE5CBA1CD68A39004F068C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EE5CC01CD68A90004F068C /* PERSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PERSON.h; sourceTree = "<group>"; };
+		77EE5CC11CD68A90004F068C /* PERSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PERSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				77EE5CAA1CD68A39004F068C /* main.m */,
+				77EE5CC01CD68A90004F068C /* PERSON.h */,
+				77EE5CC11CD68A90004F068C /* PERSON.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				77EE5CB11CD68A39004F068C /* ViewController.m in Sources */,
 				77EE5CAE1CD68A39004F068C /* AppDelegate.m in Sources */,
+				77EE5CC21CD68A90004F068C /* PERSON.m in Sources */,
 				77EE5CAB1CD68A39004F068C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
